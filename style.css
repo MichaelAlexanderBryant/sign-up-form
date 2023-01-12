@@ -11,6 +11,9 @@ body {
 #left-panel {
     flex: 7;
     text-align: center;
+    background-image: url("./img/background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 #banner {
@@ -97,17 +100,19 @@ input {
     color: rgb(255,255,255);
 }
 
-button, #log-in {
-    margin-left: 50px;
-    margin-top: 20px;
-}
-
 button {
+    margin-top: 30px;
+    margin-left: 50px;
     background-color: #cd742b;
     padding: 7.5px 40px 7.5px 40px;
     border-color: #fcbc89;
     border-radius: 5px;
-    margin-top: 30px;
+}
+
+#log-in {
+    flex: 1;
+    padding-left: 50px;
+    margin-bottom: 100px;
 }
 
 a:link, a:visited, a:hover a:active {
