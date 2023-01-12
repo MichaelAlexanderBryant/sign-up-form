@@ -12,7 +12,7 @@ body {
 #left-panel {
     flex: 7;
     text-align: center;
-    background-image: url("background.jpg");
+    background-image: url("./img/background.jpg");
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -20,7 +20,7 @@ body {
 #banner {
     background-color: rgba(255,255,255,.75);
     position: relative;
-    top: 25%;
+    top: 25.5%;
     display:flex;
     justify-content: center;
     align-items: center;
@@ -54,8 +54,7 @@ span {
 }
 
 #sign-up {
-    flex:9;
-    /* margin-left: 50px; */
+    flex:15;
 }
 
 fieldset {
@@ -71,36 +70,33 @@ h3 {
 }
 
 #forms {
-    display:flex;
-    justify-content: flex-start;
-    align-items: center;
     font-size: small;
-    color:#A6A6A6;
+    color: #A6A6A6;
 }
 
-#left-forms, #right-forms {
+#top-forms, #middle-forms, #bottom-forms {
     flex:1;
-    /* border:1px solid white; */
+    display: flex;
 }
 
-#left-forms {
-    margin-right: -300px;
-}
-
-.input {
+.input-container {
+    flex: 1;
     margin-top: 20px;
     margin-bottom: 20px;
 }
 
-.input, label {
+#left-name, #left-email, #left-password {
+    margin-right: -200px;
+}
+
+label {
     display: block;
 }
 
 input {
     background-color: black;
-    /* border-color: #A6A6A6; */
     border: 1px solid rgba(166,166,166,.5);
-    width: 35%;
+    width: 50%;
     border-radius: 5px;
     color: rgb(255,255,255);
 }
@@ -111,11 +107,14 @@ button, #log-in {
 }
 
 button {
-    background-color: #cec4b9;
+    background-color: #cd742b;
     padding: 7.5px 40px 7.5px 40px;
+    border-color: #fcbc89;
     border-radius: 5px;
+    margin-top: 30px;
 }
 
-a:link, a:visited, a:active {
-    color: #cec4b9;
+a:link, a:visited, a:hover a:active {
+    text-decoration: none;
+    color: #cd742b;
 }
