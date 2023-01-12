@@ -112,7 +112,7 @@ button {
 #log-in {
     flex: 1;
     padding-left: 50px;
-    margin-bottom: 100px;
+    padding-bottom: 100px;
 }
 
 a:link, a:visited, a:hover a:active {
