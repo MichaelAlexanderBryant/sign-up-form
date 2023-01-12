@@ -178,7 +178,11 @@ button[id="submit"]:focus {
     /* border: 1px solid white; */
 }
 
-a:link, a:visited, a:hover a:active {
+a:link, a:visited, a:hover, a:active {
     text-decoration: none;
     color: #cd742b;
+}
+
+a:focus {
+    color: #aa6226;
 }
